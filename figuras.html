@@ -39,10 +39,22 @@
         <section>
             <h2>Calcula el área y perímetro de un círculo</h2>
             <form action="">
-                <label for="inputCirculo"> Escribe cuánto mide cada lado del círculo:</label>
+                <label for="inputCirculo"> Escribe cuánto mide el radio del círculo:</label>
                 <input id="inputCirculo" type="number">
                 <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
                 <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+            </form>
+        </section>
+        <section>
+            <h2>Calcular la altura de un triángulo isósceles</h2>
+            <form action="">
+                <label for="isoLado1">Escribe cuanto miden el lado 1 del triángulo:</label>
+                <input id="isoLado1" type="number" placeholder="Lado 1">
+                <label for="isoLado2">Escribe cuanto miden el lado 2 del triángulo:</label>
+                <input id="isoLado2" type="number" placeholder="Lado 2">
+                <label for="isoBase">Escribe cuanto miden la base del triángulo:</label>
+                <input id="isoBase" type="number" placeholder="Base">
+                <button type="button" onclick="calcularAlturaTriangulo()">Calcular</button>
             </form>
         </section>
     </main>

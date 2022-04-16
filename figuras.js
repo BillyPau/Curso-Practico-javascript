@@ -42,6 +42,15 @@ function areaCirculo(radio) {
     return (radio * radio) * PI
 }
 
+// Código del triángulo isósceles
+function alturaTriangulo(lado1, lado2, base) {
+    if (lado1 == lado2) {
+        return Math.sqrt((lado1*lado2)-((base*base)/4))
+    } else{
+        alert("Los lados no son iguales")
+    }
+}
+
 console.groupEnd();
 
 // cuadrado
@@ -93,4 +102,16 @@ function calcularAreaCirculo() {
     const value = radio.value;
     const area = areaCirculo(value);
     alert(area);
+}
+
+// altura triángulo isósceles
+function calcularAlturaTriangulo(params) {
+    const lado1 = document.getElementById("isoLado1");
+    const lado2 = document.getElementById("isoLado2");
+    const base = document.getElementById("isoBase");
+    const Lado1 = lado1.value;
+    const Lado2 = lado2.value;
+    const Base = base.value;
+    const altura = alturaTriangulo(Lado1, Lado2, Base)
+    alert(altura);
 }
