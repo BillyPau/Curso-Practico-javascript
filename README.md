@@ -2,7 +2,14 @@
 
 ## Taller #1: figuras geometricas
 
-- Primero: definir las fórmulas
-- Segundo: implementar las formulas en JavaScript  
+- Primero: Definir las fórmulas
+- Segundo: Implementar las formulas en JavaScript  
+- Tercero: Crear funciones
+- Cuarto: Integrar JavaScript con HTML
+
+## Taller #2: Porcentajes y descuentos
+
+- Primero: Definir las fórmulas
+- Segundo: Implementar las formulas en JavaScript  
 - Tercero: Crear funciones
 - Cuarto: Integrar JavaScript con HTML
